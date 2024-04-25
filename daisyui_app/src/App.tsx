@@ -24,7 +24,7 @@ function App() {
         />
         {errors.name && <p className="text-red-500">{errors.name.message}</p>}
         <button type="submit" className="btn btn-outline btn-accent">
-          OUTLINED
+          SUBMIT
         </button>
       </div>
     </form>
